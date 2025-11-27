@@ -1,0 +1,57 @@
+/* Fonte e cores gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Menu fixo */
+header {
+    background-color: #004aad;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Caixas das seções */
+.box {
+    background: white;
+    margin: 40px auto;
+    padding: 25px;
+    width: 80%;
+    max-width: 900px;
+
+    border: 2px solid #004aad;     /* Bordas */
+    border-radius: 8px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    line-height: 1.6;
+}
+
+/* Títulos */
+h1, h2 {
+    color: #004aad;
+}
+
+ul li {
+    margin-top: 8px; /* Espaçamento entre itens */
+}
